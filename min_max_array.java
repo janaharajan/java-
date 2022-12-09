@@ -26,10 +26,8 @@ public class array_max_min{
 				
 				for(i=0;i<size;i++)
 				{
-					if(array_value[i]	>	array_value[i+1]	)
+					if(array_value[i]	>	maximum	)
 						maximum	= array_value[i];
-					//else
-					//	maximum	= array_value[i+1];	
 				}
 				System.out.print("\nmaximum is "+maximum);
 							
@@ -37,12 +35,8 @@ public class array_max_min{
 							
 							for(i=0;i<size;i++)
 							{
-								if(array_value[i]	<	array_value[i+1])
-										
-									array_value[i]	=	minimum;
-					//			else
-					//				array_value[i+1]	= minimum;
-							
+								if(array_value[i]	<	minimum)
+									minimum		=	array_value[i]
 							}
 				System.out.print("\nminimum is "+minimum);			
 			}
